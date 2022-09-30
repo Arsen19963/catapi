@@ -1,0 +1,14 @@
+.container {
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+    .imgContainer {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
